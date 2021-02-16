@@ -1,13 +1,9 @@
-
-
 "use strict";
-
 (function () {
 	let originalPositions = [];
 	let daElements = document.querySelectorAll('[data-da]');
 	let daElementsArray = [];
 	let daMatchMedia = [];
-
 	if (daElements.length > 0) {
 		let number = 0;
 		for (let index = 0; index < daElements.length; index++) {
@@ -361,19 +357,12 @@ for (let index = 0; index < checkBox.length; index++){
       const checkQantity = serviceQantity[index];
       checkQantity.innerHTML = checkActive.getAttribute('data-text') + checkActive.length; 
     }
-   
 
   });
-  
-
- 
   
 } 
 
 const headerLink = document.querySelectorAll(".bottom-header__link");
-
-//console.log(headerLink)
-
 for( let index = 0; index <  headerLink.length; index++ ) {
   const headerLinks =  headerLink[index];
   headerLinks.addEventListener("click", function (e){
